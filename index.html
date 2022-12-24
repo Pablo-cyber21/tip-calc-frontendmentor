@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <img class="logo_image" src="images\logo.svg" alt="" srcset="" />
+    <main>
+      <section class="input-section">
+        <input
+          placeholder="Bill"
+          type="text"
+          id="input"
+          class="input"
+          name="billVal"
+        />
+        <br /><br />
+
+        <h4>% Select tip</h4>
+        <br /><br />
+        <div class="tip-percentages">
+          <button onclick="fivePercentTip()" id="btn5">5%</button>
+          <button id="btn10">10%</button>
+          <button id="btn15">15%</button>
+          <button id="btn25">25%</button>
+          <button id="btn50">50%</button>
+          <input
+            placeholder="Custom"
+            type="text"
+            id="custom-tip"
+            class="custom-tip"
+          />
+        </div>
+        <br />
+        <input
+          placeholder=" Number of People"
+          type="text"
+          c
+          id="people-number"
+          class="people-number"
+          name="peopleNumber"
+        />
+      </section>
+
+      <br />
+
+      <section class="TOTALS">
+        <div class="totals">
+          <div class="per-person">
+            <h5
+              >Tip amount
+              <p>/person</p>
+            </h5>
+            <h3 id="num-per-person"> 0 </h3>
+          </div>
+
+          <div class="Grand-total">
+            <h5
+              >Total amount
+              <p>/person</p>
+            </h5>
+            <h3 id="no-total">0</h3>
+          </div>
+        </div>
+
+        <br />
+        <button id="reset-btn">reset</button>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
