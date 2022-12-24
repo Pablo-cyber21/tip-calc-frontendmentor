@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+body{
+    padding: 1.33em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4{
+    font-size: 1.33em;
+    color: hsl(184, 14%, 56%);
+}
+
+h5{
+    color: #fff;
+}
+
+input{
+    width: 85%;
+    max-width: 450px;
+    /* outline: none; */
+    background-color:   hsl(189, 41%, 97%) ;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    padding: 0.9rem 0.7rem;
+    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); */
+    font-size: 17px;
+    color: #4A4A4A;
+    text-indent: 40px;
+    text-align: right;
+}
+
+button{
+    padding: .55em 2.66em;
+    font-size: 1.22em;
+    outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  /* margin: 0 auto; */
+  text-align: center;
+  background-color: hsl(183, 100%, 15%);
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+p{
+    color:  hsl(184, 14%, 56%);
+}
+
+.tip-percentages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.22em;
+}
+
+.custom-tip{
+    width: 170px;
+}
+
+.per-person,.Grand-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.1em 1.55em;
+}
+
+.TOTALS{
+    background-color: hsl(183, 100%, 15%);
+    padding: 1.44em 1.33em;
+    border-radius: 10px;
+    width: 770px;
+    max-width: 100%;
+}
+
+#no-total, #num-per-person{
+    font-size: 3em;
+    color:  hsl(184, 14%, 56%);
+}
+
+#reset-btn{
+    color:  hsl(183, 100%, 15%);
+    width: 95%;
+    font-size: 1.44em;
+    font-weight: 700;
+    font-variant: small-caps;
+    padding: .77em 1.45em;
+    max-width: 100%;
+    background-color:   hsl(184, 14%, 56%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media (min-width:765px) {
+    
+    body{
+background-color:  hsl(185, 41%, 84%) ;
+text-align: center;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        padding: 3em 2em;
+        margin: 4.5em 7em;
+        max-width: 100%;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 12px;
+    }
+  }
